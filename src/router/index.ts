@@ -33,13 +33,13 @@ const router = createRouter({
           name: 'select',
           component: () => import('../views/SelectView.vue')
         },
+        {
+          path: '/currency',
+          name: 'currency',
+          component: () => import('../views/CurrencyInputShowcase.vue')
+        }
       ]
     },
-    {
-      path: '/currency',
-      name: 'currency',
-      component: () => import('../views/CurrencyInputShowcase.vue')
-    }
   ]
 })
 
