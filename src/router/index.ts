@@ -22,7 +22,11 @@ const router = createRouter({
       name: 'table',
       component: () => import('../views/TableShowcase.vue')
     },
-
+    {
+      path: '/currency',
+      name: 'currency',
+      component: () => import('../views/CurrencyInputShowcase.vue')
+    }
   ]
 })
 
