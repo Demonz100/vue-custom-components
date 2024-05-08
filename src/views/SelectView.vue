@@ -7,7 +7,7 @@ import { defineAsyncComponent, reactive, ref } from 'vue';
 
 const SelectComponent = defineAsyncComponent(() => import('@/components/SelectComponent/SelectComponent.vue'))
 
-const selectedValue = ref('')
+const selectedValue = ref('') 
 const data = reactive([
     { key: '1', value: 'Book' },
     { key: '2', value: 'Pen' },
