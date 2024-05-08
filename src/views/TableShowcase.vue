@@ -23,7 +23,7 @@ const tableConfig = reactive<TableConfig>({
         pageSize: 10,
         total: 0
     },
-    options: ['index', 'pagination', 'selectable'],
+    options: ['index', 'pagination', 'selectable'], 
     columns: [
         {
             name: 'Pokemon Name',
